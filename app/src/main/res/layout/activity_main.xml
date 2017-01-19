@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical" >
+
+    <TextView
+        android:text="ProgresBarDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"/>
+
+    <Button
+        android:id="@+id/btnStartProgress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Download File" />
+
+
+    <TextView
+        android:text="Inline Horisontal Progressbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"/>
+
+    <Button
+        android:id="@+id/btnStartProgress2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Download File" />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:indeterminate="false"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:max="100"
+        android:scaleY="3"
+        android:id="@+id/inlinePB"/>
+
+</LinearLayout>
